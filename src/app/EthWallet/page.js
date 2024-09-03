@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import { mnemonicToSeedSync } from 'bip39';
 import { hdkey } from 'ethereumjs-wallet';
